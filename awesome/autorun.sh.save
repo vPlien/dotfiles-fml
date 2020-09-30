@@ -1,3 +1,4 @@
+:XXXX
 #!/usr/bin/env bash
 
 function run {
@@ -7,7 +8,7 @@ function run {
   fi
 }
 
-run autorandr
+run autorandr -c
 run xfce4-power-manager
 run xautolock -enable
 run cbatticon
